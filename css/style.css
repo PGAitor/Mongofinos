@@ -3,15 +3,17 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 header {
     font-size: large;
 }
+
 main {
     font-size: larger;
-    margin-top: 50px;
 }
+
 footer {
     font-size: small;
 }
@@ -67,7 +69,7 @@ footer {
   align-items: center;
   margin-left: 25px;
   margin-right: 25px;
-  height: 768px;
+  height: 100vh;
   padding: 10px;
 }
 
