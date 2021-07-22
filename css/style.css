@@ -36,8 +36,10 @@ a {
 }
 
 .nav{
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    border: none;
+
     background-color: #f8f8f8;
-    border-color: #e7e7e7;
 
     position: fixed;
     top: 0;
