@@ -20,14 +20,51 @@ ul {
 
 li {
     display: inline;
-    float: left;
 }
 
-.menu {
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
-    border: none;
-    display: block;
+a {
+    text-decoration: none;
 }
+
+/* Nav bar styles ON */
+.menu {
+    border: none;
+    font-size: 16px;
+}
+
+#nav a {
+    color: #777;
+}
+
+#nav a:hover {
+    color: #121212;
+}
+
+#nav .current a {
+    font-weight: bolder;
+    color: black;
+    background-color: #dddddd;
+}
+
+.navbar-nav {
+    margin: 7.5px 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 30px;
+}
+
+.navbar-default{
+    /*background-color: #f8f8f8;*/
+    background-color: #504d4d;
+    border-color: #e7e7e7;
+}
+
+.nabvar-fixed-top {
+    padding-right: 0;
+    padding-left: 0;
+    max-height: 340px;
+}
+/* Nav bar styles OFF */
 
 .father {
 }
