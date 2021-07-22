@@ -19,6 +19,7 @@ footer {
 ul {
     list-style-type: none;
     
+
 }
 
 li {
@@ -72,8 +73,10 @@ a {
 .father {
   display:flex;
   justify-content: space-around;
+  align-items: center;
   margin-left: 25px;
   margin-right: 25px;
+  height: 718px;
 }
 
 .son {
