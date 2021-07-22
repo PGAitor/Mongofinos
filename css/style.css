@@ -16,23 +16,12 @@ footer {
     font-size: small;
 }
 
-ul {
-    list-style-type: none;
-}
-
-li {
-    display: inline;
-}
-
-a {
-    text-decoration: none;
-}
 
 /* Nav bar styles ON */
 .menu {
+    list-style-type: none;
     border: none;
     font-size: 16px;
-    margin: 0px 10px;
 }
 
 .nav{
@@ -45,17 +34,19 @@ a {
     top: 0;
     width: 100%;
 
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 0;
-    padding-left: 0;
-
     line-height: 30px;
     max-height: 340px;
 }
 
+#nav li{
+  float:left;
+}
+
 #nav a {
     color: #777;
+    display: block;
+    text-decoration: none;
+    padding: 14px 16px;
 }
 
 #nav a:hover {
