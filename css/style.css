@@ -1,11 +1,14 @@
 header {
     font-family: "Helvetica", "Arial";
+    font-size: large;
 }
 main {
     font-family: "Helvetica", "Arial";
+    font-size: larger;
 }
 footer {
     font-family: "Helvetica", "Arial";
+    font-size: small;
 }
 
 .menu {
