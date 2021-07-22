@@ -18,8 +18,6 @@ footer {
 
 ul {
     list-style-type: none;
-    
-
 }
 
 li {
@@ -77,9 +75,12 @@ a {
   margin-left: 25px;
   margin-right: 25px;
   height: 718px;
+  padding: 10px;
 }
 
 .son {
+  padding:10px;
+  width: 75%;
 }
 
 .img {
