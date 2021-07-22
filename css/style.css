@@ -1,5 +1,6 @@
 * {
     font-family: "Helvetica", "Arial";
+    box-sizing: border-box;
 }
 
 header {
@@ -30,13 +31,23 @@ li {
 }
 
 .father {
+  display:flex;
+  flex-wrap: wrap;
 }
 
 .son {
+  height: 100vh;
+  width: 75%;
 }
 
 .img {
 }
 
 .rss {
+}
+
+/* FX */
+
+.father:nth-child(even) .son{
+  order:2;
 }
