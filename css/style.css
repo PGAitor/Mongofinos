@@ -78,9 +78,11 @@ a {
 }
 
 .img {
+    margin: 0;
 }
 
 .rss {
+    margin: 0;
 }
 
 /* FX */
