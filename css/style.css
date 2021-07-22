@@ -10,6 +10,7 @@ header {
 }
 main {
     font-size: larger;
+    margin-top: 50px;
 }
 footer {
     font-size: small;
@@ -76,7 +77,6 @@ a {
 }
 
 .son {
-  height: 100vh;
 }
 
 .img {
