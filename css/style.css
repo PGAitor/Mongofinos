@@ -32,15 +32,17 @@ li {
 
 .father {
   display:flex;
-  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .son {
   height: 100vh;
-  width: 75%;
 }
 
 .img {
+
 }
 
 .rss {
