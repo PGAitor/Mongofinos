@@ -65,21 +65,31 @@ footer {
 
 .father {
   display:flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  margin-left: 25px;
-  margin-right: 25px;
   height: 100vh;
   padding: 10px;
 }
 
 .son {
   padding:10px;
-  width: 75%;
+  width: 35%;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
+.son p{
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+.son h1, .son h2, .son h3{
+  margin-bottom:15px;
+}
 .img {
-    margin: 0;
+  width: 25%;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .rss {
