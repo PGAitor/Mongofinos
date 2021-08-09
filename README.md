@@ -1,6 +1,6 @@
 # Mongofinos
 ## Main Branch
-### HTML ###
+### HTML 
 Here goes all the structural files (currently one). The main goal is make a one
 page web, where all the sections are actually in the same HTML file.
 ### CSS
