@@ -61,17 +61,15 @@ footer {
 /* Nav bar styles OFF */
 
 .father {
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(30rem,1fr));
   height: 100%;
-  padding: 65px 10px 10px 10px;
+  min-height: 100vh;
+  padding: 100px 10px 10px 10px;
 }
 
 .son {
   padding:10px;
-  width: 35%;
   margin-left: 25px;
   margin-right: 25px;
 }
@@ -91,7 +89,7 @@ footer {
   margin-bottom:15px;
 }
 .img {
-  width: 25%;
+  margin-top: 15%;
   margin-left: 25px;
   margin-right: 25px;
 }
